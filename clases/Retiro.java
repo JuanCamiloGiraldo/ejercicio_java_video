@@ -1,5 +1,6 @@
 package clases;
-
+// Sobreescribe transacciones para realizar el retiro, usa la función con @Override Retiro de la clase Padre para 
+//sobreescribir el saldo en caso de que el valor sea permitido.
 public class Retiro extends Padre{
     @Override
       public void Transacciones(){
